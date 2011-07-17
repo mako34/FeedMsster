@@ -1,0 +1,4 @@
+/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/Classes/CoreDataMssterAppDelegate.m:175: warning: property 'eyeTop' requires method '-eyeTop' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/Classes/CoreDataMssterAppDelegate.m:175: warning: property 'eyeTop' requires the method 'setEyeTop:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/Classes/CoreDataMssterAppDelegate.m:175: warning: property 'eyeBottom' requires method '-eyeBottom' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/Classes/CoreDataMssterAppDelegate.m:175: warning: property 'eyeBottom' requires the method 'setEyeBottom:' to be defined - use @synthesize, @dynamic or provide a method implementation

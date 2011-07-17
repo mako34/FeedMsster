@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>CoreDataMsster</string>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>CoreDataMsster</key>
+		<dict>
+			<key>Entity</key>
+			<data>
+			ZvWKx8eZf7BLRRG7DWcl2UjdGzEYyHf+mEBulVpMn8Q=
+			</data>
+			<key>Feeds</key>
+			<data>
+			3D0pus84h6gcFwlCoSH27C51RSwrINj3ZwYBv0Gs6pg=
+			</data>
+			<key>categ</key>
+			<data>
+			J2xL65nfXXd5Mq3GB1xKyQoZkzRoxGsF9WTuI0vTzpA=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>

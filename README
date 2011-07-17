@@ -1,0 +1,16 @@
+Sample code for upcoming tutorial on Core Data, for iOS,
+coming soon in my site
+http://hyperprogram.com/
+
+Enjoy!
+
+* shows list of RSS feeds
+* Uses Core Graphics for table Cells
+* Uses Core Animation in intro image and a little flying test owl
+
+TO DO:
+* fix delete
+* use RSS saved in items as path 
+* validation for RSS link
+
+other goodies ;)
