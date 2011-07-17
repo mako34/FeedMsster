@@ -9,8 +9,10 @@ Enjoy!
 * Uses Core Animation in intro image and a little flying test owl
 
 TO DO:
+* edit categ and item name
 * fix delete
 * use RSS saved in items as path 
 * validation for RSS link
+* show saved Feeds [inside category/item]
 
 other goodies ;)
