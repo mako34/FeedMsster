@@ -7,8 +7,10 @@ Enjoy!
 * shows list of RSS feeds
 * Uses Core Graphics for table Cells
 * Uses Core Animation in intro image and a little flying test owl
+* pagination [by pages]
 
 TO DO:
+* Algorithm for pagination [now doing it cave man style!]
 * edit categ and item name
 * fix delete
 * use RSS saved in items as path 

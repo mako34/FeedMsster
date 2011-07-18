@@ -1,7 +1,7 @@
 TCoreDataMsster
 v7
 r0
-t332563489.358685
+t332670466.373071
 cCheck dependencies
 cProcessInfoPlistFile /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/Info.plist CoreDataMsster-Info.plist
 cCompileXIB /Users/mk/Documents/iOS/iPad/FeedMsster/MainWindow.xib
@@ -13,6 +13,8 @@ cCpResource build/Debug-iphonesimulator/FeedMsster.app/topEye.png topEye.png
 cCpResource build/Debug-iphonesimulator/FeedMsster.app/bottomEye.png bottomEye.png
 cCompileXIB /Users/mk/Documents/iOS/iPad/FeedMsster/Classes/svdFeeds.xib
 cCpResource build/Debug-iphonesimulator/FeedMsster.app/owl.png owl.png
+cCpResource build/Debug-iphonesimulator/FeedMsster.app/backBtn.png backBtn.png
+cCpResource build/Debug-iphonesimulator/FeedMsster.app/nextBtn.png nextBtn.png
 cProcessPCH /var/folders/Sg/Sg92oC4VFbKdVh6x7SqZTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMsster_Prefix-abgohztlputlzwfnciwcdddbitov/CoreDataMsster_Prefix.pch.gch CoreDataMsster_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cDataModelVersionCompile /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/CoreDataMsster.momd /Users/mk/Documents/iOS/iPad/FeedMsster/CoreDataMsster.xcdatamodeld
 cCompileC build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/main.o /Users/mk/Documents/iOS/iPad/FeedMsster/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -152,15 +154,15 @@ i"CustomHeader.h"
 i"Common.h"
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/Classes/ItemDataViewController.h
-c000000004E20757B0000000000000395
-t1310750075
-s917
+c000000004E228F8300000000000004A7
+t1310887811
+s1191
 i<UIKit/UIKit.h>
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/Classes/ItemDataViewController.m
-c000000004E2117EE00000000000023A1
-t1310791662
-s9121
+c000000004E23EE760000000000002E52
+t1310977654
+s11858
 i"ItemDataViewController.h"
 i"svdFeeds.h"
 i"Parser.h"
@@ -170,9 +172,9 @@ i"CustomCellBackground.h"
 i<QuartzCore/QuartzCore.h>
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/Classes/ItemDataViewController.xib
-c000000004E206A930000000000007349
-t1310747283
-s29513
+c000000004E22601F0000000000009641
+t1310875679
+s38465
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/Classes/Parser.h
 c000000004E1FDE4B000000000000043E
@@ -292,17 +294,22 @@ c000000004E205CF3000000000000B6C9
 t1310743795
 s46793
 
+N/Users/mk/Documents/iOS/iPad/FeedMsster/backBtn.png
+c000000004E2257BE0000000000003668
+t1310873534
+s13928
+
 N/Users/mk/Documents/iOS/iPad/FeedMsster/bottomEye.png
 c000000004E1FFDC70000000000050791
 t1310719431
 s329617
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app
-t1310870689
-s510
+t1310977655
+s578
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app.dSYM
-t1310870689
+t1310977655
 s102
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/CoreDataMsster.momd
@@ -310,16 +317,16 @@ t1310712164
 s136
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster
-t1310870689
-s114368
+t1310977654
+s119836
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/Info.plist
 t1310712144
 s810
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/ItemDataViewController.nib
-t1310747327
-s2481
+t1310875684
+s3312
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/MainWindow.nib
 t1310712155
@@ -337,6 +344,10 @@ N/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.
 t1310743816
 s4181
 
+N/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/backBtn.png
+t1310873897
+s13928
+
 N/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/bottomEye.png
 t1310724035
 s329617
@@ -344,6 +355,10 @@ s329617
 N/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/cancel.png
 t1310712156
 s40723
+
+N/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/nextBtn.png
+t1310873897
+s12012
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/owl.png
 t1310750075
@@ -387,8 +402,8 @@ t1310870688
 s5364
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/ItemDataViewController.o
-t1310870687
-s78288
+t1310977654
+s87844
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/Parser.o
 t1310870687
@@ -399,8 +414,8 @@ t1310870688
 s64032
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/RootViewController.o
-t1310870687
-s120292
+t1310887822
+s120324
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/categ.o
 t1310870688
@@ -424,6 +439,11 @@ c000000004E1FDE4B0000000000000168
 t1310711371
 s360
 i<UIKit/UIKit.h>
+
+N/Users/mk/Documents/iOS/iPad/FeedMsster/nextBtn.png
+c000000004E2258180000000000002EEC
+t1310873624
+s12012
 
 N/Users/mk/Documents/iOS/iPad/FeedMsster/owl.png
 c000000004E2074870000000000018382
@@ -807,7 +827,7 @@ s1238
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies332563482#332563482#0(0"0(0#1#0"29836824280170608#0"0#
+lSLF07#2@18"Check dependencies332670466#332670466#0(0"0(0#1#0"8614207168#0"0#
 
 CCompileC build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/Common.o /Users/mk/Documents/iOS/iPad/FeedMsster/Classes/Common.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s332563488.426691
@@ -970,8 +990,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@89"Compile /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/CoreDataMsster.xcdatamodeld/Feeds.m332404967#332404967#0(0"0(0#0#81"/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/CoreDataMsster.xcdatamodeld/Feeds.m8614732800#2117"    cd /Users/mk/Downloads/mako34-FeedMsster-94fb1d2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-generated-files.hmap -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-own-target-headers.hmap -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-all-target-headers.hmap -iquote /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-project-headers.hmap -F/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator/include -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/DerivedSources/i386 -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/DerivedSources -include /var/folders/Sg/Sg92oC4VFbKdVh6x7SqZTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMsster_Prefix-fcxxaeuqkemcimayeglocfmocdph/CoreDataMsster_Prefix.pch -c /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/CoreDataMsster.xcdatamodeld/Feeds.m -o /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/Feeds.o0#
 
 CCompileC build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/ItemDataViewController.o /Users/mk/Documents/iOS/iPad/FeedMsster/Classes/ItemDataViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s332563487.490125
-e332563487.740921
+s332670454.402676
+e332670454.839609
 r1
 xCompileC
 xbuild/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/ItemDataViewController.o
@@ -980,7 +1000,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/mk/Documents/iOS/iPad/FeedMsster/Classes/ItemDataViewController.m332563487#332563487#0(0"0(0#0#72"/Users/mk/Documents/iOS/iPad/FeedMsster/Classes/ItemDataViewController.m8606951264#2065"    cd /Users/mk/Documents/iOS/iPad/FeedMsster    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-generated-files.hmap -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-own-target-headers.hmap -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-all-target-headers.hmap -iquote /Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-project-headers.hmap -F/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/include -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/DerivedSources/i386 -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/DerivedSources -include /var/folders/Sg/Sg92oC4VFbKdVh6x7SqZTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMsster_Prefix-abgohztlputlzwfnciwcdddbitov/CoreDataMsster_Prefix.pch -c /Users/mk/Documents/iOS/iPad/FeedMsster/Classes/ItemDataViewController.m -o /Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/ItemDataViewController.o0#
+lSLF07#2@80"Compile /Users/mk/Documents/iOS/iPad/FeedMsster/Classes/ItemDataViewController.m332670454#332670454#0(0"0(0#0#72"/Users/mk/Documents/iOS/iPad/FeedMsster/Classes/ItemDataViewController.m8614050656#2065"    cd /Users/mk/Documents/iOS/iPad/FeedMsster    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-generated-files.hmap -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-own-target-headers.hmap -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-all-target-headers.hmap -iquote /Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-project-headers.hmap -F/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/include -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/DerivedSources/i386 -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/DerivedSources -include /var/folders/Sg/Sg92oC4VFbKdVh6x7SqZTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMsster_Prefix-abgohztlputlzwfnciwcdddbitov/CoreDataMsster_Prefix.pch -c /Users/mk/Documents/iOS/iPad/FeedMsster/Classes/ItemDataViewController.m -o /Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/ItemDataViewController.o0#
 
 CCompileC build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/ItemDataViewController.o /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/Classes/ItemDataViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s332484462.749877
@@ -1048,8 +1068,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/Classes/RSSdetail.m332449569#332449570#0(0"0(0#0#65"/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/Classes/RSSdetail.m8618950496#2105"    cd /Users/mk/Downloads/mako34-FeedMsster-94fb1d2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-generated-files.hmap -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-own-target-headers.hmap -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-all-target-headers.hmap -iquote /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-project-headers.hmap -F/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator/include -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/DerivedSources/i386 -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/DerivedSources -include /var/folders/Sg/Sg92oC4VFbKdVh6x7SqZTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMsster_Prefix-fcxxaeuqkemcimayeglocfmocdph/CoreDataMsster_Prefix.pch -c /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/Classes/RSSdetail.m -o /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/RSSdetail.o0#
 
 CCompileC build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/RootViewController.o /Users/mk/Documents/iOS/iPad/FeedMsster/Classes/../RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s332563487.195661
-e332563487.478641
+s332580612.459770
+e332580622.683482
 r1
 xCompileC
 xbuild/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/RootViewController.o
@@ -1058,7 +1078,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/mk/Documents/iOS/iPad/FeedMsster/Classes/../RootViewController.m332563487#332563487#0(0"0(0#0#71"/Users/mk/Documents/iOS/iPad/FeedMsster/Classes/../RootViewController.m8607925024#2060"    cd /Users/mk/Documents/iOS/iPad/FeedMsster    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-generated-files.hmap -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-own-target-headers.hmap -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-all-target-headers.hmap -iquote /Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-project-headers.hmap -F/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/include -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/DerivedSources/i386 -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/DerivedSources -include /var/folders/Sg/Sg92oC4VFbKdVh6x7SqZTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMsster_Prefix-abgohztlputlzwfnciwcdddbitov/CoreDataMsster_Prefix.pch -c /Users/mk/Documents/iOS/iPad/FeedMsster/Classes/../RootViewController.m -o /Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/RootViewController.o0#
+lSLF07#2@79"Compile /Users/mk/Documents/iOS/iPad/FeedMsster/Classes/../RootViewController.m332580612#332580622#0(0"0(0#0#71"/Users/mk/Documents/iOS/iPad/FeedMsster/Classes/../RootViewController.m8617897408#2060"    cd /Users/mk/Documents/iOS/iPad/FeedMsster    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-generated-files.hmap -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-own-target-headers.hmap -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-all-target-headers.hmap -iquote /Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-project-headers.hmap -F/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/include -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/DerivedSources/i386 -I/Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/DerivedSources -include /var/folders/Sg/Sg92oC4VFbKdVh6x7SqZTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMsster_Prefix-abgohztlputlzwfnciwcdddbitov/CoreDataMsster_Prefix.pch -c /Users/mk/Documents/iOS/iPad/FeedMsster/Classes/../RootViewController.m -o /Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/RootViewController.o0#
 
 CCompileC build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/RootViewController.o /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/Classes/../RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s332442875.665335
@@ -1152,7 +1172,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@72"Compile /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/Classes/svdFeeds.m332440598#332440598#0(0"0(0#0#64"/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/Classes/svdFeeds.m8618798624#2103"    cd /Users/mk/Downloads/mako34-FeedMsster-94fb1d2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-generated-files.hmap -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-own-target-headers.hmap -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-all-target-headers.hmap -iquote /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-project-headers.hmap -F/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator/include -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/DerivedSources/i386 -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/DerivedSources -include /var/folders/Sg/Sg92oC4VFbKdVh6x7SqZTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMsster_Prefix-fcxxaeuqkemcimayeglocfmocdph/CoreDataMsster_Prefix.pch -c /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/Classes/svdFeeds.m -o /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/svdFeeds.o0#
 
 CCompileXIB /Users/mk/Documents/iOS/iPad/FeedMsster/Classes/ItemDataViewController.xib
-r0
+s332568484.141791
+e332568484.750602
+r1
+xCompileXIB
+x/Users/mk/Documents/iOS/iPad/FeedMsster/Classes/ItemDataViewController.xib
+lSLF07#2@45"CompileXIB Classes/ItemDataViewController.xib332568484#332568484#0(0"0(0#0#74"/Users/mk/Documents/iOS/iPad/FeedMsster/Classes/ItemDataViewController.xib8608998528#608"    cd /Users/mk/Documents/iOS/iPad/FeedMsster    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/ItemDataViewController.nib /Users/mk/Documents/iOS/iPad/FeedMsster/Classes/ItemDataViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB /Users/mk/Documents/iOS/iPad/FeedMsster/Classes/RSSdetail.xib
 r0
@@ -1206,6 +1231,15 @@ xCompileXIB
 x/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/RootViewController.xib
 lSLF07#2@33"CompileXIB RootViewController.xib332436614#332436616#0(0"0(0#0#68"/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/RootViewController.xib8619160576#610"    cd /Users/mk/Downloads/mako34-FeedMsster-94fb1d2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator/FeedMsster.app/RootViewController.nib /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
+CCpResource build/Debug-iphonesimulator/FeedMsster.app/backBtn.png backBtn.png
+s332566697.157096
+e332566697.712218
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FeedMsster.app/backBtn.png
+xbackBtn.png
+lSLF07#2@16"Copy backBtn.png332566697#332566697#0(0"0(0#0#51"/Users/mk/Documents/iOS/iPad/FeedMsster/backBtn.png8607564032#475"    cd /Users/mk/Documents/iOS/iPad/FeedMsster    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mk/Documents/iOS/iPad/FeedMsster/backBtn.png /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app0#
+
 CCpResource build/Debug-iphonesimulator/FeedMsster.app/bottomEye.png bottomEye.png
 s332416835.298142
 e332416835.681875
@@ -1226,6 +1260,15 @@ xCpResource
 xbuild/Debug-iphonesimulator/FeedMsster.app/cancel.png
 xcancel.png
 lSLF07#2@15"Copy cancel.png332404956#332404956#0(0"0(0#0#56"/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/cancel.png8621860096#492"    cd /Users/mk/Downloads/mako34-FeedMsster-94fb1d2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/cancel.png /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator/FeedMsster.app0#
+
+CCpResource build/Debug-iphonesimulator/FeedMsster.app/nextBtn.png nextBtn.png
+s332566697.198952
+e332566697.712382
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FeedMsster.app/nextBtn.png
+xnextBtn.png
+lSLF07#2@16"Copy nextBtn.png332566697#332566697#0(0"0(0#0#51"/Users/mk/Documents/iOS/iPad/FeedMsster/nextBtn.png8604236224#475"    cd /Users/mk/Documents/iOS/iPad/FeedMsster    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/mk/Documents/iOS/iPad/FeedMsster/nextBtn.png /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app0#
 
 CCpResource build/Debug-iphonesimulator/FeedMsster.app/owl.png owl.png
 s332442875.535921
@@ -1258,13 +1301,13 @@ x/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/CoreDataMsster.xcdatamodeld
 lSLF07#2@114"DataModelVersionCompile build/Debug-iphonesimulator/FeedMsster.app/CoreDataMsster.momd CoreDataMsster.xcdatamodeld332404964#332404964#0(0"0(0#0#73"/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/CoreDataMsster.xcdatamodeld8616984448#424"    cd /Users/mk/Downloads/mako34-FeedMsster-94fb1d2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/CoreDataMsster.xcdatamodeld /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator/FeedMsster.app/CoreDataMsster.momd0#
 
 CGenerateDSYMFile /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app.dSYM /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster
-s332563489.209250
-e332563489.340792
+s332670455.021343
+e332670455.171590
 r1
 xGenerateDSYMFile
 x/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app.dSYM
 x/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster
-lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/FeedMsster.app.dSYM build/Debug-iphonesimulator/FeedMsster.app/FeedMsster332563489#332563489#0(0"0(0#0#93"/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster8608038656#395"    cd /Users/mk/Documents/iOS/iPad/FeedMsster    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster -o /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app.dSYM0#
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/FeedMsster.app.dSYM build/Debug-iphonesimulator/FeedMsster.app/FeedMsster332670455#332670455#0(0"0(0#0#93"/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster8614252992#395"    cd /Users/mk/Documents/iOS/iPad/FeedMsster    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster -o /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app.dSYM0#
 
 CGenerateDSYMFile /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator/FeedMsster.app.dSYM /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster
 s332484463.109409
@@ -1276,14 +1319,14 @@ x/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator/FeedM
 lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/FeedMsster.app.dSYM build/Debug-iphonesimulator/FeedMsster.app/FeedMsster332484463#332484463#0(0"0(0#0#99"/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster8607920832#413"    cd /Users/mk/Downloads/mako34-FeedMsster-94fb1d2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster -o /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator/FeedMsster.app.dSYM0#
 
 CLd /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster normal i386
-s332563488.731966
-e332563489.209109
+s332670454.839721
+e332670455.021231
 r1
 xLd
 x/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster
 xnormal
 xi386
-lSLF07#2@98"Link /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster332563488#332563489#0(0"0(0#0#0"8603715616#966"    cd /Users/mk/Documents/iOS/iPad/FeedMsster    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator -F/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator -filelist /Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/FeedMsster.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework QuartzCore -o /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster0#
+lSLF07#2@98"Link /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster332670454#332670455#0(0"0(0#0#0"8614893376#966"    cd /Users/mk/Documents/iOS/iPad/FeedMsster    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator -F/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator -filelist /Users/mk/Documents/iOS/iPad/FeedMsster/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/Objects-normal/i386/FeedMsster.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework QuartzCore -o /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster0#
 
 CLd /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator/FeedMsster.app/FeedMsster normal i386
 s332484463.064388
@@ -1334,12 +1377,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@36"Precompile CoreDataMsster_Prefix.pch332404958#332404964#0(0"0(0#0#71"/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/CoreDataMsster_Prefix.pch8619583616#1969"    cd /Users/mk/Downloads/mako34-FeedMsster-94fb1d2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-generated-files.hmap -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-own-target-headers.hmap -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-all-target-headers.hmap -iquote /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/FeedMsster-project-headers.hmap -F/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator/include -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/DerivedSources/i386 -I/Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/FeedMsster.build/Debug-iphonesimulator/CoreDataMsster.build/DerivedSources -c /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/CoreDataMsster_Prefix.pch -o /var/folders/Sg/Sg92oC4VFbKdVh6x7SqZTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CoreDataMsster_Prefix-fcxxaeuqkemcimayeglocfmocdph/CoreDataMsster_Prefix.pch.gch0#
 
 CTouch /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app
-s332563489.340883
-e332563489.358628
+s332670455.171691
+e332670455.179396
 r1
 xTouch
 x/Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app
-lSLF07#2@88"Touch /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app332563489#332563489#0(0"0(0#0#0"8604392256#283"    cd /Users/mk/Documents/iOS/iPad/FeedMsster    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app0#
+lSLF07#2@88"Touch /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app332670455#332670455#0(0"0(0#0#0"8614480000#283"    cd /Users/mk/Documents/iOS/iPad/FeedMsster    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mk/Documents/iOS/iPad/FeedMsster/build/Debug-iphonesimulator/FeedMsster.app0#
 
 CTouch /Users/mk/Downloads/mako34-FeedMsster-94fb1d2/build/Debug-iphonesimulator/FeedMsster.app
 s332484463.150852

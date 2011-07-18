@@ -26,9 +26,9 @@
 @synthesize ViewDataReceive;
 @synthesize textName;
 @synthesize activityIndicator, items;
-@synthesize tableViewRSS;
-@synthesize loadMore;
-
+@synthesize tableViewRSS, bckBtn, pageNr;
+@synthesize loadMore, RSSPage;
+ 
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -41,14 +41,31 @@
 }
 */
 
+//int RSSPage;
+
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+	
     [super viewDidLoad];
+	
+	[bckBtn setHidden :true];
+	
+	RSSPage = 1;
+	
+	
+	NSString *myString = [NSString stringWithFormat:@"Page:%d",RSSPage];
+
+	
+ 	pageNr.text = myString ;
+	
 	NSLog(@"arrive: %@", ViewDataReceive);
+	
+	NSLog(@"sd: %i", RSSPage);
+
+ 
 	//NameLbl.text = ViewDataReceive;
 	textName.text = ViewDataReceive;
- 	
 	/*
 	UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
 	indicator.hidesWhenStopped = YES;
@@ -127,7 +144,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     //return [items count];
 	
-	
+	/*
 	//for pagination!
 	if([items count]>= 20)
 	{
@@ -137,9 +154,9 @@
 	{
 		return [items count];
 		
-	}
+	}*/
 	
-	//return 10;
+	return 10;
 
 }
 
@@ -158,28 +175,60 @@
         cell.selectedBackgroundView = [[[CustomCellBackground alloc] init] autorelease];
         ((CustomCellBackground *)cell.selectedBackgroundView).selected = YES;
 	}
-    
-	// Configure the cell.
-	/*
-	if( indexPath.row >= 9 ) {
-        cell.textLabel.text = @"Show More...";
-		cell.accessoryType = UITableViewCellAccessoryNone;
-		cell.detailTextLabel.text = @"touch cell";
-
-     }*/
-	/*
-	if( indexPath.row <= 8 ) {
-	*/
-	cell.textLabel.text = [[items objectAtIndex:indexPath.row] objectForKey:@"title"];
+  
+	
 	
 	// Format date
 	NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init] autorelease];	
 	[dateFormatter setDateStyle:NSDateFormatterMediumStyle];
 	[dateFormatter setTimeStyle:NSDateFormatterNoStyle];
 	
+	//show in cell all
+	/*
+	cell.textLabel.text = [[items objectAtIndex:indexPath.row] objectForKey:@"title"];
 	cell.detailTextLabel.text = [dateFormatter stringFromDate:[[items objectAtIndex:indexPath.row] objectForKey:@"date"]];
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-	//}
+	*/
+	
+	// Configure the cell to add a last cell.
+	/*
+	if( indexPath.row >= 9 ) {
+        cell.textLabel.text = @"Show More...";
+		cell.accessoryType = UITableViewCellAccessoryNone;
+		cell.detailTextLabel.text = @"touch cell";
+
+     }
+	/*
+	if( indexPath.row <= 8 ) {
+	*/
+ 	
+	//show by groups depending on page number
+	
+	
+	if( RSSPage == 1 ) {
+ 		cell.textLabel.text = [[items objectAtIndex:indexPath.row] objectForKey:@"title"];
+		cell.detailTextLabel.text = [dateFormatter stringFromDate:[[items objectAtIndex:indexPath.row] objectForKey:@"date"]];
+		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+				
+	}
+	
+	if( RSSPage == 2 ) {
+		cell.textLabel.text = [[items objectAtIndex:(indexPath.row)+10] objectForKey:@"title"];
+		cell.detailTextLabel.text = [dateFormatter stringFromDate:[[items objectAtIndex:indexPath.row] objectForKey:@"date"]];
+		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	}
+	
+	if( RSSPage == 3 ) {
+		cell.textLabel.text = [[items objectAtIndex:(indexPath.row)+20] objectForKey:@"title"];
+		cell.detailTextLabel.text = [dateFormatter stringFromDate:[[items objectAtIndex:indexPath.row] objectForKey:@"date"]];
+		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	}
+/*	
+	else {
+		cell.textLabel.text = @"curva";
+
+	}
+*/
 	
     return cell;
 		
@@ -193,47 +242,70 @@
 
 // Override to support row selection in the table view.
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	NSDictionary *theItem = [items objectAtIndex:indexPath.row];
-	//RSSdetail *nextController = [[RSSdetail alloc] initWithItem:theItem];
-	//[self.navigationController pushViewController:nextController animated:YES];
-	//[nextController release];
 	
+	//NSDictionary *theItem = [items objectAtIndex:indexPath.row];
+ /*
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
-
 	  
 	RSSdetail *viewControllerData = [[RSSdetail alloc] initWithNibName:nil bundle:nil];
 	
-	//	viewControllerData.ViewDataReceive = MessageToViewData; //send the message to the viewController
-	viewControllerData.item = theItem; //send the message to the viewController
-	
+ 	viewControllerData.item = theItem; //send the message to the viewController
 	
 	viewControllerData.modalPresentationStyle = UIModalPresentationFormSheet;
 	[self presentModalViewController:viewControllerData animated:YES];
+	*/
 	
-	/*
-	
-	if (indexPath.row < 9) {
+	if( RSSPage == 1 ) {
+ 		NSLog(@"fue 1 row = %d", indexPath.row);
 		
-		//load the view in a modal window sliding up!
+		NSDictionary *theItem = [items objectAtIndex:indexPath.row];
+		
+		[tableView deselectRowAtIndexPath:indexPath animated:YES];
+		
 		RSSdetail *viewControllerData = [[RSSdetail alloc] initWithNibName:nil bundle:nil];
 		
-		//	viewControllerData.ViewDataReceive = MessageToViewData; //send the message to the viewController
 		viewControllerData.item = theItem; //send the message to the viewController
 		
+		viewControllerData.modalPresentationStyle = UIModalPresentationFormSheet;
+		[self presentModalViewController:viewControllerData animated:YES];
+		
+		
+	}
+	
+	if( RSSPage == 2 ) {
+		NSLog(@"fue 2 row =%d", (indexPath.row)+10);
+
+		NSDictionary *theItem = [items objectAtIndex:(indexPath.row)+10];
+		
+		[tableView deselectRowAtIndexPath:indexPath animated:YES];
+		
+		RSSdetail *viewControllerData = [[RSSdetail alloc] initWithNibName:nil bundle:nil];
+		
+		viewControllerData.item = theItem; //send the message to the viewController
 		
 		viewControllerData.modalPresentationStyle = UIModalPresentationFormSheet;
 		[self presentModalViewController:viewControllerData animated:YES];
 		
 	}
 	
-	if(indexPath.row == 9)
-	{
-		NSLog(@"undio");
-		[tableViewRSS reloadData];
+	if( RSSPage == 3 ) {
+		NSLog(@"fue 2 row =%d", (indexPath.row)+20);
+		NSDictionary *theItem = [items objectAtIndex:(indexPath.row)+20];
 
+		
+		[tableView deselectRowAtIndexPath:indexPath animated:YES];
+		
+		RSSdetail *viewControllerData = [[RSSdetail alloc] initWithNibName:nil bundle:nil];
+		
+		viewControllerData.item = theItem; //send the message to the viewController
+		
+		viewControllerData.modalPresentationStyle = UIModalPresentationFormSheet;
+		[self presentModalViewController:viewControllerData animated:YES];
+		
 	}
-	*/
-}
+	
+	
+	}
 
 
 -(NSString *) tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
@@ -311,6 +383,40 @@
 	
 }
 
+
+-(IBAction) backBtn:(id)sender {
+	
+	RSSPage = RSSPage - 1;
+	NSLog(@"number =%d", RSSPage);	
+	
+	if (RSSPage <2) {
+		[bckBtn setHidden:true];
+	}
+	NSString *myString = [NSString stringWithFormat:@"Page:%d",RSSPage];
+ 	pageNr.text = myString ;
+	[self.tableViewRSS reloadData];
+	[tableViewRSS setContentOffset:CGPointMake(0, 0) animated:NO];//scroll table to top 
+
+
+}
+
+-(IBAction) nextBtn:(id)sender {
+	RSSPage = RSSPage + 1;
+	NSLog(@"number =%d", RSSPage);
+	
+	if (RSSPage >=2) {
+		[bckBtn setHidden:false];
+	}
+	
+	NSString *myString = [NSString stringWithFormat:@"Page:%d",RSSPage];
+
+ 	pageNr.text = myString ;
+	
+	[self.tableViewRSS reloadData];
+	[tableViewRSS setContentOffset:CGPointMake(0, 0) animated:NO];//scroll table to top 
+
+
+}
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     // Overriden to allow any orientation.

@@ -26,6 +26,8 @@
 		4D36216B13D0A2B10062E5A4 /* svdFeeds.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D36216913D0A2B10062E5A4 /* svdFeeds.xib */; };
 		4D3621BB13D0AC460062E5A4 /* owl.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D3621BA13D0AC460062E5A4 /* owl.png */; };
 		4D3621C613D0ADFE0062E5A4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3621C513D0ADFE0062E5A4 /* QuartzCore.framework */; };
+		4D3E439713D28FBA00C7140A /* backBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D3E439513D28FBA00C7140A /* backBtn.png */; };
+		4D3E439813D28FBA00C7140A /* nextBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D3E439613D28FBA00C7140A /* nextBtn.png */; };
 		4D5B195C13C82E4C00705195 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B195A13C82E4C00705195 /* RootViewController.m */; };
 		4D5B195D13C82E4C00705195 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B195B13C82E4C00705195 /* RootViewController.xib */; };
 		4D8B346B13CFDF100066CAEB /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B346A13CFDF100066CAEB /* Parser.m */; };
@@ -65,6 +67,8 @@
 		4D36216913D0A2B10062E5A4 /* svdFeeds.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = svdFeeds.xib; path = Classes/svdFeeds.xib; sourceTree = "<group>"; };
 		4D3621BA13D0AC460062E5A4 /* owl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = owl.png; sourceTree = "<group>"; };
 		4D3621C513D0ADFE0062E5A4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4D3E439513D28FBA00C7140A /* backBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBtn.png; sourceTree = "<group>"; };
+		4D3E439613D28FBA00C7140A /* nextBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextBtn.png; sourceTree = "<group>"; };
 		4D5B195913C82E4C00705195 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
 		4D5B195A13C82E4C00705195 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
 		4D5B195B13C82E4C00705195 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
@@ -161,6 +165,8 @@
 				4D361F7A13D0461F0062E5A4 /* topEye.png */,
 				4D361F7E13D046450062E5A4 /* bottomEye.png */,
 				4D3621BA13D0AC460062E5A4 /* owl.png */,
+				4D3E439513D28FBA00C7140A /* backBtn.png */,
+				4D3E439613D28FBA00C7140A /* nextBtn.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 				4D361F7F13D046450062E5A4 /* bottomEye.png in Resources */,
 				4D36216B13D0A2B10062E5A4 /* svdFeeds.xib in Resources */,
 				4D3621BB13D0AC460062E5A4 /* owl.png in Resources */,
+				4D3E439713D28FBA00C7140A /* backBtn.png in Resources */,
+				4D3E439813D28FBA00C7140A /* nextBtn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
